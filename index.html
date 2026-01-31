@@ -6,12 +6,16 @@
     <title>Resume | Portfolio</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body, html { height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        
+        body, html { 
+            height: 100%; 
+            width: 100%; 
+            overflow: hidden; 
+        }
 
-        /* PDF Container */
         .pdf-container {
-            height: calc(100vh - 60px);
-            width: 100%;
+            height: 100vh;
+            width: 100vw;
         }
 
         embed {
@@ -24,6 +28,5 @@
     <div class="pdf-container">
         <embed src="Pakhi_Banchalia_CV.pdf" type="application/pdf" />
     </div>
-
 </body>
 </html>
